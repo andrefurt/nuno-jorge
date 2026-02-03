@@ -3,7 +3,12 @@ name: Build and Deploy
 on:
   push:
     branches: [main]
-    paths: ['src/**']
+    paths:
+      - 'src/**'
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - 'llms.txt'
+      - '.github/workflows/deploy.yml'
 
 permissions:
   contents: read
