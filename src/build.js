@@ -211,4 +211,4 @@ function copyDirSync(src, dest) {
   }
 }
 
-console.log('Build complete: dist/index.html');
+console.log('Build complete: dist/index.html (' + new Date().toISOString() + ')');
