@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{meta.title}}</title>
+  <meta name="description" content="{{meta.description}}">
+  <link rel="canonical" href="https://andrefurt.github.io/nuno-jorge/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{meta.title}}">
+  <meta property="og:description" content="{{meta.description}}">
+  <meta property="og:url" content="https://andrefurt.github.io/nuno-jorge/">
+  <meta property="og:locale" content="pt_PT">
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="preload" href="assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar para o conteúdo</a>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero__inner">
+        <h1 class="hero__headline" data-content="hero.headline">{{hero.headline}}</h1>
+        <p class="hero__subheadline" data-content="hero.subheadline">{{hero.subheadline}}</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="{{computed.whatsapp_url}}" target="_blank" rel="noopener">{{hero.cta_primary}}</a>
+          <a class="btn btn--secondary" href="tel:{{contact.phone}}">{{hero.cta_secondary}}</a>
+        </div>
+      </div>
+      <ul class="trust-bar" aria-label="Credenciais">
+        {{#each hero.trust_badges}}
+        <li class="trust-bar__item" data-content="hero.trust_badges.{{@index}}">{{this}}</li>
+        {{/each}}
+      </ul>
+    </section>
+
+    <!-- Diferenciação -->
+    <section class="section" aria-label="Diferenciação">
+      <div class="section__inner">
+        <h2 class="section__title" data-content="differentiation.title">{{differentiation.title}}</h2>
+        <p class="section__lead" data-content="differentiation.intro">{{differentiation.intro}}</p>
+        {{#each differentiation.paragraphs}}
+        <p class="section__text" data-content="differentiation.paragraphs.{{@index}}">{{this}}</p>
+        {{/each}}
+
+        <table class="comparison">
+          <thead>
+            <tr>
+              <th class="comparison__header comparison__header--dim" data-content="differentiation.comparison_labels.conventional">{{differentiation.comparison_labels.conventional}}</th>
+              <th class="comparison__header comparison__header--accent" data-content="differentiation.comparison_labels.clinical">{{differentiation.comparison_labels.clinical}}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each differentiation.comparison}}
+            <tr class="comparison__row">
+              <td class="comparison__cell comparison__cell--dim" data-content="differentiation.comparison.{{@index}}.conventional">{{this.conventional}}</td>
+              <td class="comparison__cell comparison__cell--accent" data-content="differentiation.comparison.{{@index}}.clinical">{{this.clinical}}</td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Para quem é -->
+    <section class="section section--alt" aria-label="Para quem é">
+      <div class="section__inner">
+        <h2 class="section__title" data-content="target_audience.title">{{target_audience.title}}</h2>
+        <ul class="scenarios">
+          {{#each target_audience.scenarios}}
+          <li class="scenarios__item">
+            <strong data-content="target_audience.scenarios.{{@index}}.bold">{{this.bold}}</strong>
+            <span data-content="target_audience.scenarios.{{@index}}.text"> {{this.text}}</span>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+    </section>
+
+    <!-- Como funciona -->
+    <section class="section" aria-label="Como funciona">
+      <div class="section__inner">
+        <h2 class="section__title" data-content="process.title">{{process.title}}</h2>
+        <ol class="process">
+          {{#each process.steps}}
+          <li class="process__step">
+            <div class="process__content">
+              <h3 class="process__title" data-content="process.steps.{{@index}}.title">{{this.title}}</h3>
+              <p class="process__description" data-content="process.steps.{{@index}}.description">{{this.description}}</p>
+            </div>
+          </li>
+          {{/each}}
+        </ol>
+      </div>
+    </section>
+
+    <!-- Áreas de Intervenção -->
+    <section class="section section--alt" aria-label="Áreas de intervenção">
+      <div class="section__inner section__inner--wide">
+        <h2 class="section__title" data-content="services.title">{{services.title}}</h2>
+        <div class="services">
+          {{#each services.items}}
+          <article class="services__card">
+            <h3 class="services__title" data-content="services.items.{{@index}}.title">{{this.title}}</h3>
+            <p class="services__description" data-content="services.items.{{@index}}.description">{{this.description}}</p>
+          </article>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mim -->
+    <section class="section" aria-label="Sobre o Nuno">
+      <div class="section__inner">
+        <h2 class="section__title" data-content="about.title">{{about.title}}</h2>
+        <div class="about">
+          <div class="about__text">
+            {{#each about.paragraphs}}
+            <p data-content="about.paragraphs.{{@index}}">{{this}}</p>
+            {{/each}}
+          </div>
+          <ul class="about__credentials">
+            {{#each about.credentials}}
+            <li class="about__credential" data-content="about.credentials.{{@index}}">{{this}}</li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testemunhos -->
+    <section class="section section--alt" aria-label="Testemunhos">
+      <div class="section__inner">
+        <h2 class="section__title" data-content="testimonials.title">{{testimonials.title}}</h2>
+        <div class="testimonials">
+          {{#each testimonials.items}}
+          <blockquote class="testimonials__item">
+            <p class="testimonials__quote" data-content="testimonials.items.{{@index}}.quote">{{this.quote}}</p>
+            <footer class="testimonials__footer">
+              <cite class="testimonials__author" data-content="testimonials.items.{{@index}}.author">{{this.author}}</cite>
+              <span class="testimonials__context" data-content="testimonials.items.{{@index}}.context">{{this.context}}</span>
+            </footer>
+          </blockquote>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+
+    <!-- Investimento -->
+    <section class="section" aria-label="Investimento">
+      <div class="section__inner">
+        <h2 class="section__title" data-content="pricing.title">{{pricing.title}}</h2>
+        <p class="section__lead" data-content="pricing.intro">{{pricing.intro}}</p>
+        <dl class="pricing">
+          {{#each pricing.items}}
+          <div class="pricing__item">
+            <dt class="pricing__label" data-content="pricing.items.{{@index}}.label">{{this.label}}</dt>
+            <dd class="pricing__value" data-content="pricing.items.{{@index}}.value">{{this.value}}</dd>
+          </div>
+          {{/each}}
+        </dl>
+        <p class="pricing__note" data-content="pricing.note">{{pricing.note}}</p>
+        <div class="pricing__actions">
+          <a class="btn btn--primary" href="{{computed.whatsapp_url}}" target="_blank" rel="noopener">{{cta_final.cta_primary}}</a>
+          <a class="btn btn--secondary" href="tel:{{contact.phone}}">{{cta_final.cta_secondary}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" aria-label="Perguntas frequentes">
+      <div class="section__inner">
+        <h2 class="section__title" data-content="faq.title">{{faq.title}}</h2>
+        <div class="faq">
+          {{#each faq.items}}
+          <details class="faq__item">
+            <summary class="faq__question" data-content="faq.items.{{@index}}.question">{{this.question}}</summary>
+            <p class="faq__answer" data-content="faq.items.{{@index}}.answer">{{this.answer}}</p>
+          </details>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="section section--cta" aria-label="Contacto">
+      <div class="section__inner">
+        <h2 class="section--cta__headline" data-content="cta_final.headline">{{cta_final.headline}}</h2>
+        <p class="section--cta__body" data-content="cta_final.body">{{cta_final.body}}</p>
+        <div class="section--cta__actions">
+          <a class="btn btn--primary btn--large" href="{{computed.whatsapp_url}}" target="_blank" rel="noopener">{{cta_final.cta_primary}}</a>
+          <a class="btn btn--secondary btn--large" href="tel:{{contact.phone}}">{{cta_final.cta_secondary}}</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <p class="footer__name" data-content="footer.name">{{footer.name}}</p>
+      <p class="footer__title" data-content="footer.title">{{footer.title}}</p>
+      <p class="footer__coverage" data-content="footer.coverage">{{footer.coverage}}</p>
+      <nav class="footer__links" aria-label="Contactos">
+        <a class="footer__link" href="tel:{{contact.phone}}">{{contact.phone}}</a>
+        <a class="footer__link" href="{{computed.whatsapp_url}}" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="footer__link" href="{{contact.linkedin}}" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    if (new URLSearchParams(window.location.search).has('edit')) {
+      var s = document.createElement('script');
+      s.src = 'editor.js';
+      document.body.appendChild(s);
+    }
+  </script>
+</body>
+</html>

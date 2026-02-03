@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://andrefurt.github.io/nuno-jorge/sitemap.xml
