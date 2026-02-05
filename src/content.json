@@ -84,11 +84,11 @@
     "steps": [
       {
         "title": "Primeiro contacto",
-        "description": "Liga ou envia mensagem. Conversamos sobre a sua situação, sem compromisso."
+        "description": "Ligue ou envie mensagem. Conversamos sobre a sua situação, sem compromisso."
       },
       {
         "title": "Avaliação inicial",
-        "description": "Na primeira sessão ao domicílio, fazemos uma avaliação completa: historial de saúde, capacidade física, objetivos, e limitações. Articulamos com o seu médico se necessário."
+        "description": "Na primeira sessão ao domicílio, realizarei uma avaliação completa: historial de saúde, capacidade física, objetivos, e limitações. Articulamos com o seu médico se necessário."
       },
       {
         "title": "Plano personalizado",
@@ -109,7 +109,7 @@
     "items": [
       {
         "title": "Preparação para Cirurgia",
-        "description": "Chegar mais forte ao dia da operação pode fazer toda a diferença na recuperação. Ajudo a preparar o seu corpo para o que vem a seguir.",
+        "description": "Chegar mais forte ao dia da cirurgia pode fazer toda a diferença na recuperação. Ajudo a preparar o seu corpo para o reduzir complicações pós operatórias.",
         "seo_terms": "pré-habilitação cirúrgica, condicionamento pré-operatório"
       },
       {
@@ -119,17 +119,17 @@
       },
       {
         "title": "Exercício em Oncologia",
-        "description": "Manter a força e reduzir a fadiga durante os tratamentos. O exercício pode melhorar a tolerância à quimioterapia e acelerar a recuperação.",
+        "description": "Manter a força e reduzir a fadiga durante os tratamentos. O exercício pode melhorar a tolerância à quimioterapia e acelerar a recuperação.O exercício reduz as complicações pós operatórias e o tempo de internamento.",
         "seo_terms": "exercício oncológico, exercício durante quimioterapia"
       },
       {
         "title": "Perda de Peso e Saúde Metabólica",
-        "description": "Emagrecer de forma segura, preservando a massa muscular. Acompanhamento especializado, incluindo em terapêutica com semaglutida (Ozempic/Wegovy).",
+        "description": "Emagrecer de forma segura, preservando a massa muscular. Acompanhamento especializado, incluindo em terapêutica com semaglutida (Ozempic).",
         "seo_terms": "exercício e semaglutida, perda de peso clínica, síndrome metabólica"
       },
       {
         "title": "Dor Crónica e Limitações Físicas",
-        "description": "Reduzir a dor e melhorar a capacidade de fazer as coisas do dia-a-dia. Exercício como ferramenta de gestão da dor.",
+        "description": "Reduzir a dor e melhorar a capacidade de fazer as atividades do dia-a-dia. Exercício como ferramenta de gestão da dor.",
         "seo_terms": "exercício dor crónica, reabilitação musculoesquelética"
       },
       {
@@ -142,10 +142,10 @@
   "about": {
     "title": "Sobre mim",
     "paragraphs": [
-      "Sou o Nuno Jorge, e dedico o meu trabalho a ajudar pessoas a recuperar a sua saúde e qualidade de vida através do exercício.",
-      "Sou licenciado e mestre em Ciências do Desporto pela Faculdade de Desporto da Universidade do Porto, com especialização em Exercício e Saúde. Atualmente estou a concluir o doutoramento em Atividade Física e Saúde, pela Faculdade de Medicina da Universidade do Porto.",
-      "Trabalhei no IPO do Porto, onde acompanhei pacientes oncológicos na sua preparação para cirurgia e recuperação. Dou aulas na Universidade Fernando Pessoa e sou autor de publicações científicas em revistas internacionais de referência.",
-      "Mas mais do que títulos, o que me move é ver a diferença que o exercício faz na vida das pessoas: a mãe que volta a conseguir brincar com os netos, o pai que recupera a confiança para voltar a sair de casa, a pessoa que enfrenta um tratamento difícil com mais força.",
+      "Sou o Nuno Jorge, e dedico o meu trabalho a ajudar pessoas a recuperar a sua saúde e qualidade de vida através do exercício físico.",
+      "Sou licenciado em Ciências do Desporto pela Faculdade de Desporto da Universidade do Porto, e mestre em Atividade Física Exercício e Saúde com especialização em Exercício em contextos clínicos. Atualmente estou a concluir o doutoramento em Atividade Física e Saúde, pela Faculdade de Desporto da universidade do Porto, em parceria com o Centro Hospitalar Universitário de São João.",
+      "Trabalhei no IPO do Porto, onde acompanhei pacientes oncológicos na sua preparação para cirurgia e recuperação. Também no  Centro Hospitalar Universitário de São João, onde prescrevia exercício físico para pessoas com excesso de peso, obesidade e alterações metabólicas. Atualmente, também sou professor na Universidade Fernando Pessoa e sou autor de publicações científicas em revistas internacionais de referência.",
+      "Mas mais do que títulos, o que me move é ver a diferença que o exercício faz na vida das pessoas: desde a avó que volta a conseguir brincar com os netos, o pai que recupera a confiança para voltar a sair de casa, a pessoa que enfrenta um tratamento difícil com mais força e resistência.",
       "Cada pessoa que acompanho recebe a minha total dedicação e atenção. É assim que trabalho."
     ],
     "credentials": [
