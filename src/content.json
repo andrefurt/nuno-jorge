@@ -5,7 +5,7 @@
   },
   "hero": {
     "headline": "Recupere a sua força e confiança. No conforto da sua casa.",
-    "subheadline": "Exercício clínico personalizado ao domicílio no Porto, orientado por um especialista em saúde, cirurgia e oncologia.",
+    "subheadline": "Exercício clínico personalizado ao domicílio no Porto, orientado por um especialista em saúde.",
     "cta_primary": "Marcar Consulta",
     "cta_secondary": "Ligar Agora",
     "trust_badges": [
@@ -63,7 +63,7 @@
       },
       {
         "bold": "Quer perder peso de forma segura",
-        "text": "especialmente com acompanhamento médico (como semaglutida)"
+        "text": "especialmente com acompanhamento médico, nutricional"
       },
       {
         "bold": "Tem dores crónicas ou limitações físicas",
