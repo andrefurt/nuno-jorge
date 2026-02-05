@@ -190,15 +190,15 @@
     "items": [
       {
         "question": "Preciso de autorização do meu médico para começar?",
-        "answer": "Não é obrigatório, mas é recomendado. Em muitos casos, articulo diretamente com o seu médico para garantir que o plano de exercício está alinhado com o seu tratamento."
+        "answer": "Não é obrigatório, mas pode ser recomendado depois da nossa primeira conversa. Em muitos casos, articulo diretamente com o seu médico para garantir que o plano de exercício está alinhado com o seu tratamento."
       },
       {
         "question": "Qual é a diferença entre isto e um personal trainer?",
-        "answer": "Um personal trainer trabalha com objetivos de fitness e estética. O meu acompanhamento é clínico: parte do seu historial de saúde, das indicações médicas, e usa o exercício como uma ferramenta terapêutica. Tenho formação especializada em contextos clínicos e experiência hospitalar."
+        "answer": "Um personal trainer trabalha com objetivos de fitness e estética. O meu acompanhamento é clínico: parte do seu historial de saúde, das indicações médicas, e usa o exercício como uma ferramenta terapêutica. Tenho formação especializada em contextos clínicos e experiência hospitalar e científica."
       },
       {
         "question": "É seguro fazer exercício durante a quimioterapia?",
-        "answer": "Sim, quando orientado por um profissional qualificado. A evidência científica mostra que o exercício durante a quimioterapia pode reduzir a fadiga, manter a massa muscular e melhorar a tolerância ao tratamento."
+        "answer": "Sim, quando orientado por um profissional qualificado. A evidência científica mostra que o exercício durante a quimioterapia pode reduzir a fadiga, manter a massa muscular e melhorar a tolerância ao tratamento. Tenho especialidade em Pré-habilitação do doente oncológico cirúrgico."
       },
       {
         "question": "Quanto tempo dura cada sessão?",
@@ -206,7 +206,7 @@
       },
       {
         "question": "Preciso de ter equipamento em casa?",
-        "answer": "Não. Levo todo o material necessário para as sessões."
+        "answer": "Não. Forneço todo o material necessário para as sessões."
       },
       {
         "question": "Onde presta o serviço?",
